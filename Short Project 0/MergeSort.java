@@ -42,7 +42,7 @@ public class MergeSort {
 		}
 
 	}
-
+	//Print first ten numbers from list of million numbers
 	static<T> void firstTen(T[] A) {
 		int n = Math.min(A.length, 10);
 		for(int i=0; i<n; i++) {
