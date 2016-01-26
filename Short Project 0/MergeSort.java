@@ -2,6 +2,8 @@ import java.io.IOException;
 import java.util.*;
 public class MergeSort {
 
+
+//Merge two arrays
 	public <T extends Comparable<T>> void merge(T[] a, int low, int mid, int high)
 	{
 
