@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class DifferenceCheck {
     
+    //to find the elements that are there in list A except the elements of list B
       public static<T extends Comparable<? super T>>
         void difference(List<T> l1, List<T> l2, List<T> outList)
         
