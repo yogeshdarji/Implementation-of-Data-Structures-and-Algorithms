@@ -2,6 +2,8 @@ import java.io.IOException;
 import java.util.*;
 public class MergeSort {
 
+
+//Merge two arrays
 	public <T extends Comparable<T>> void merge(T[] a, int low, int mid, int high)
 	{
 
@@ -42,7 +44,7 @@ public class MergeSort {
 		}
 
 	}
-
+	//Print first ten numbers from list of million numbers
 	static<T> void firstTen(T[] A) {
 		int n = Math.min(A.length, 10);
 		for(int i=0; i<n; i++) {
