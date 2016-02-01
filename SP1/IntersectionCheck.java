@@ -17,6 +17,7 @@ public class IntersectionCheck {
         
             while (true) {
          
+         //Compare both the lists
                 if (element1.compareTo(element2)==0) {
 
              
