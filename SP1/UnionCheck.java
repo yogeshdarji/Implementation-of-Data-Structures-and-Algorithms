@@ -79,7 +79,7 @@
                       {
                    //   System.out.println("Here ele1<ele2");
                        outList.add((T) element1);
-                    //   System.out.println("Outlist element1 = "+element1);
+                    
                      if (it1.hasNext()) 
                       {
                     
