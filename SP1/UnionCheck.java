@@ -54,7 +54,7 @@
                   else if (element1.compareTo(element2) > 0) {
                       
                       while(element1.compareTo(element2) > 0){
-                  
+                  // System.out.println("Here ele1>ele2");
                    outList.add((T) element2);
                   
                       if (it2.hasNext()) 
@@ -77,7 +77,7 @@
                   {  
                       while(element1.compareTo(element2) < 0)
                       {
-                   //   System.out.println("Here ele1<ele2");
+                   // System.out.println("Here ele1<ele2");
                        outList.add((T) element1);
                     
                      if (it1.hasNext()) 
