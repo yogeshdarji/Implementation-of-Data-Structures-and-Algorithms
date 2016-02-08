@@ -84,12 +84,15 @@ public class IntersectionCheck {
                 long startTime = 0;
 		long endTime = 0;
 		long totalTime = 0;
+		
          //Time it takes to get output       
      	startTime = System.currentTimeMillis();
         intersect(l1, l2, l3);
         endTime = System.currentTimeMillis();
         totalTime = endTime - startTime;
+        
         System.out.println("Time="+totalTime);
+        //Printing common list
         System.out.println("size of l3=" + l3.size());
         
     }
