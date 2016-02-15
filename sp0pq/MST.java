@@ -51,9 +51,6 @@ public class MST<T> {
         
         while(!pqPrim1.isEmpty()){
             Edge e=(Edge)pqPrim1.remove();
-            //System.out.println("selecting edge"+e);
-            //System.out.println(pqPrim1.size();
-            //System.out.println("22222222222222="+counter++);
             if(e.From.seen && e.To.seen) continue;
             u=e.From;
             v=e.To;
