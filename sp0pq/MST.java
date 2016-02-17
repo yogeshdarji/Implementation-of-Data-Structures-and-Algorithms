@@ -66,11 +66,6 @@ public class MST<T> {
             for(Edge f: v.Adj){
 //                if(!(f.From.seen && f.To.seen)){
 //                    System.out.println(f.From+": "+f.From.seen+f.To+": "+f.To.seen);
-//                
-//                //if(f.From.seen && !(f.To.seen)){
-//                     pqPrim1.add(f);
-//                     System.out.println("-------------------------------"+f);
-//                }
                    
                 
                 w=f.otherEnd(v);
