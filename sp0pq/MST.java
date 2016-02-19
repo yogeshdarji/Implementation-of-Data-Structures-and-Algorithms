@@ -24,7 +24,7 @@ public class MST<T> {
         Vertex src = g.verts.get(1);
         
         // Code for Prim's algorithm
-        //Pre processing the graph
+       
         for(Vertex u: g){
             u.seen=false;
             u.parent=null;
