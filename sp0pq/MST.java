@@ -23,7 +23,7 @@ public class MST<T> {
         int wmst = 0;
         Vertex src = g.verts.get(1);
         
-        // Code for Prim's algorithm
+        // Code for Prim's Algorithm
        
         for(Vertex u: g){
             u.seen=false;
