@@ -111,7 +111,7 @@
           for(int i=0;i<100;i=i+2)
           l2.add(i);
           
-          
+         
           
 
           UnionCheck sp = new UnionCheck();
@@ -119,6 +119,8 @@
   		    long endTime = 0;
   		    long totalTime = 0;
                   
+                  
+                  //Calculate time complexity
        	  startTime = System.currentTimeMillis();
           union(l1, l2, l3);
           endTime = System.currentTimeMillis();
